@@ -17,4 +17,4 @@
 
 # Layout
 
-<p>Você pode visualizar o layout do projeto através<a href="https://www.figma.com/file/FC0oOxn7ycNK4Xb4lxV7Fk/DD-%2F-Countdown-(Copy)?node-id=0%3A1"> desse link</a></p>
+<p>Você pode visualizar o layout do projeto através <a href="https://www.figma.com/file/oDZqw3v8fem3v3RC7bTKV5/DD-%2F-Countdown/duplicate">desse link</a></p>
