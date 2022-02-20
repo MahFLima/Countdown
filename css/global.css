@@ -5,10 +5,13 @@
   font-family: Poppins, sans-serif;
 }
 
+body{
+  position: relative;
+}
 
 :root {
   --black: #4D4C59;
-  --purple: #6C63FF;
+  --purple: rgb(108, 99, 255);
 	--light-grey: #C8C8C8;
   --text-color: #9C9AB6;
 }
@@ -30,4 +33,64 @@ main{
   justify-content: center;
   gap: 2rem;
   margin: 5rem;
+}
+
+/* --------------------------------------------- */
+
+.teste{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  background-color: rgb(108, 99, 255, 0.6);
+  display: flex;
+  justify-content: center;
+}
+
+.inscricao{
+  width: 20rem;
+  height: 20rem;
+  background-color: var(--black);
+  margin: 5rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.inscricao label{
+  color: var(--light-grey);
+}
+
+.inscricao input{
+  margin-bottom: 2rem;
+  height: 2.5rem;
+  padding: 0.5rem;
+}
+
+.inscricao button{
+  width: 6rem;
+  height: 2rem;
+  border: none;
+  background-color: var(--purple);
+  color: white;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.sair{
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  left:0;
+  background-color: transparent;
+  border: none;
+  padding: 1rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.invisivel{
+  visibility: hidden;
 }

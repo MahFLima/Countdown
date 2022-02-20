@@ -1,5 +1,11 @@
-const time = document.querySelector('#time')
+const sair = document.querySelector('.sair');
+const teste = document.querySelector('.teste');
+const btn = document.querySelector('.btn');
 
-const result = time.textContent
+sair.addEventListener('click', function(){
+  teste.classList.toggle("invisivel")
+})
 
-console.log(result)
+btn.addEventListener('click', function(){
+  teste.classList.toggle("invisivel")
+})
